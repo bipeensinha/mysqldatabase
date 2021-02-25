@@ -9,7 +9,8 @@ steps:
 - task: AzureMysqlDeployment@1
   displayName: 'Execute Azure MySQL : InlineSqlTask'
   inputs:
-    ConnectedServiceName: netlinkapp232
+    azureSubscription: c49a4614-f368-4f5b-b72a-88bf82d12229
+    
     ServerName: netlinldb.mysql.database.azure.com:3306
     DatabaseName: hrdb
     SqlUsername: "sqladmin@netlinldb"
