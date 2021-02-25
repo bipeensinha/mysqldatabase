@@ -10,9 +10,9 @@ steps:
   displayName: 'Execute Azure MySQL : InlineSqlTask'
   inputs:
     ConnectedServiceName: netlinkapp232
-    ServerName: netlinldb.mysql.database.azure.com
+    ServerName: "netlinldb.mysql.database.azure.com"
     DatabaseName: hrdb
-    SqlUsername: sqladmin@netlinldb
+    SqlUsername: "sqladmin@netlinldb"
     SqlPassword: Password123
     TaskNameSelector: InlineSqlTask
     SqlInline: SELECT * FROM hrdb.empdata;
