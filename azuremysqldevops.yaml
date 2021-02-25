@@ -11,7 +11,7 @@ steps:
   inputs:
     ConnectedServiceName: $(ConnectedServiceName)
     ServerName: $(ServerName)
-    DatabaseName: schema1
+    DatabaseName: hrdb
     SqlUsername: $(SqlUserName)
     SqlPassword: $(SqlPassword)
     TaskNameSelector: InlineSqlTask
