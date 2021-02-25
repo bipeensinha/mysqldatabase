@@ -11,7 +11,7 @@ steps:
   inputs:
     azureSubscription: c49a4614-f368-4f5b-b72a-88bf82d12229
     
-    ServerName: netlinldb.mysql.database.azure.com:3306
+    ServerName: netlinldb.mysql.database.azure.com
     DatabaseName: hrdb
     SqlUsername: "sqladmin@netlinldb"
     SqlPassword: Password123
